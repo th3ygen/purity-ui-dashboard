@@ -49,8 +49,8 @@ const ActiveUsers = ({ title, percentage, chart }) => {
               icon={<RocketIcon h={"15px"} w={"15px"} color={iconBoxInside} />}
             />
             <ChartStatistics
-              title={"Sales"}
-              amount={"2,400$"}
+              title={"Logins"}
+              amount={"2,400"}
               percentage={30}
               icon={<CartIcon h={"15px"} w={"15px"} color={iconBoxInside} />}
             />

@@ -19,7 +19,7 @@ export default function Footer(props) {
       px="30px"
       pb="20px"
     >
-      <Text
+      {/* <Text
         color="gray.400"
         textAlign={{
           base: "center",
@@ -102,7 +102,7 @@ export default function Footer(props) {
             {document.documentElement.dir === "rtl" ? "رخصة" : "License"}
           </Link>
         </ListItem>
-      </List>
+      </List> */}
     </Flex>
   );
 }

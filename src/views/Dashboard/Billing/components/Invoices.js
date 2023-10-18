@@ -38,7 +38,7 @@ const Invoices = ({ title, data }) => {
               <InvoicesRow
                 date={row.date}
                 code={row.code}
-                price={row.price}
+                price={'-'}
                 logo={row.logo}
                 format={row.format}
               />

@@ -50,6 +50,7 @@ const Projects = ({ title, captions, data }) => {
                   status={row.status}
                   budget={row.budget}
                   progression={row.progression}
+                  revN={row.revN}
                 />
               );
             })}

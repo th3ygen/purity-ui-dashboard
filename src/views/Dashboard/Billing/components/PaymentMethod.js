@@ -32,7 +32,7 @@ const PaymentMethod = ({ title, mastercard, visa }) => {
             {title}
           </Text>
           <Button bg={bgButton} color='white' fontSize='xs' variant='no-hover'>
-            ADD NEW CARD
+            Search by Ref. ID
           </Button>
         </Flex>
       </CardHeader>
@@ -69,7 +69,7 @@ const PaymentMethod = ({ title, mastercard, visa }) => {
               <Icon as={FaPencilAlt} />
             </Button>
           </Flex>
-          <Flex
+          {/* <Flex
             p='16px'
             bg='transparent'
             borderRadius='15px'
@@ -92,7 +92,7 @@ const PaymentMethod = ({ title, mastercard, visa }) => {
               variant='no-hover'>
               <Icon as={FaPencilAlt} />
             </Button>
-          </Flex>
+          </Flex> */}
         </Flex>
       </CardBody>
     </Card>
